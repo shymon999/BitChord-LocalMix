@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="localmix_home_my_playlists">Moje playlisty</string>
+    <string name="localmix_home_section_recents">Ostatnio odtwarzane</string>
+    <string name="localmix_home_section_youtube">Półki YouTube Music (cała grupa)</string>
+    <string name="localmix_home_layout_title">Ekran główny</string>
+    <string name="localmix_home_layout_subtitle">Wybierz, które sekcje są widoczne i w jakiej kolejności</string>
+    <string name="localmix_home_layout_description">Włączaj i wyłączaj sekcje, zmieniaj kolejność strzałkami, a dotknięciem wyglądu przełączaj karuzelę i siatkę.</string>
+    <string name="localmix_home_move_up">Przesuń wyżej</string>
+    <string name="localmix_home_move_down">Przesuń niżej</string>
+    <string name="localmix_home_layout_done">Gotowe</string>
+    <string name="localmix_home_layout_reset">Przywróć domyślne</string>
+    <string name="localmix_home_section_local_recent">Ostatnio grane z dysku</string>
+    <string name="localmix_home_section_local_most_played">Najczęściej grane z dysku</string>
+    <string name="localmix_home_section_local_added">Ostatnio dodane pliki</string>
+    <string name="localmix_home_section_local_artists">Twoi wykonawcy</string>
+    <string name="localmix_home_local_artist_subtitle">Na urządzeniu</string>
+    <string name="localmix_home_local_empty">Na razie nic tu nie ma</string>
+    <string name="localmix_home_style_carousel">Wygląd: karuzela</string>
+    <string name="localmix_home_style_grid">Wygląd: siatka</string>
+    <string name="localmix_home_favorite_playlists">Ulubione playlisty</string>
+    <string name="localmix_favorite_add">Dodaj do ulubionych playlist</string>
+    <string name="localmix_favorite_remove">Usuń z ulubionych playlist</string>
+    <string name="localmix_favorite_pick">Wybierz playlisty (%1$d)</string>
+    <string name="localmix_favorite_pick_title">Ulubione playlisty</string>
+    <string name="localmix_favorite_pick_empty">Najpierw zaimportuj playlisty (Biblioteka, Na urządzeniu).</string>
+</resources>

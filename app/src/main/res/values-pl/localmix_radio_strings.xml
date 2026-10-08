@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="localmix_radio_choice_title">Które to nagranie?</string>
+    <string name="localmix_radio_choice_message">Wybierz pasujące nagranie z YouTube Music, aby uruchomić radio. Wybór zostanie zapamiętany dla tego pliku.</string>
+    <string name="localmix_radio_choice_declined_before">Wcześniej wybrano, że żadne ze znalezionych nagrań nie pasuje do tego pliku. Wyszukaj ręcznie albo anuluj.</string>
+    <string name="localmix_radio_choice_search_hint">Szukaj w YouTube Music</string>
+    <string name="localmix_radio_choice_search">Szukaj</string>
+    <string name="localmix_radio_choice_search_failed">Wyszukiwanie nie powiodło się. Sprawdź połączenie i spróbuj ponownie.</string>
+    <string name="localmix_radio_choice_no_candidates">Nie znaleziono podobnych nagrań. Spróbuj innego wyszukiwania.</string>
+    <string name="localmix_radio_choice_no_results">Brak wyników.</string>
+    <string name="localmix_radio_choice_none">Żadne z tych</string>
+    <string name="localmix_radio_choice_cancel">Anuluj</string>
+    <string name="localmix_radio_none_saved">Zapamiętano: brak pasującego nagrania dla tego pliku. Radio nie zostało uruchomione.</string>
+    <string name="localmix_radio_network_error">Nie udało się przeszukać YouTube Music. Nic nie zapamiętano, spróbuj później.</string>
+</resources>

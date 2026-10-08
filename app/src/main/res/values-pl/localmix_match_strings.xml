@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="localmix_prefer_local_files">Używaj lokalnych plików zamiast streamu</string>
+    <string name="localmix_prefer_local_files_subtitle">Gdy przeglądany utwór jest już na urządzeniu jako to samo nagranie, oznacz go jako pobrany i odtwarzaj z pliku (działa offline)</string>
+    <string name="localmix_on_device">Na urządzeniu</string>
+    <string name="localmix_detach_file">Odłącz plik</string>
+    <string name="localmix_detached">Plik odłączony. Ten utwór będzie odtwarzany ze streamu.</string>
+    <string name="localmix_review_title">Przegląd dopasowań</string>
+    <string name="localmix_review_subtitle">Oficjalne utwory grane z Twoich plików i linki radia lokalnych plików</string>
+    <string name="localmix_review_close">Zamknij</string>
+    <string name="localmix_review_tab_tracks">Utwory (%1$d)</string>
+    <string name="localmix_review_tab_detached">Odłączone (%1$d)</string>
+    <string name="localmix_review_tab_radio">Radio (%1$d)</string>
+    <string name="localmix_review_no_matches">Żaden oficjalny utwór nie jest jeszcze dopasowany do pliku. Dopasowania pojawiają się podczas przeglądania.</string>
+    <string name="localmix_review_uncertain_count">Niepewne: %1$d, na górze listy. Potwierdź właściwe, odłącz błędne.</string>
+    <string name="localmix_review_all_certain">Brak niepewnych dopasowań. Odłącz plik, jeśli utwór gra złe nagranie.</string>
+    <string name="localmix_review_uncertain">Niepewne</string>
+    <string name="localmix_review_confirmed">Potwierdzone</string>
+    <string name="localmix_review_not_checked">Dopasowane przed wprowadzeniem tej oceny; otwórz utwór ponownie, aby ją uzupełnić</string>
+    <string name="localmix_review_confirm">Potwierdź</string>
+    <string name="localmix_review_no_detached">Brak odłączonych plików.</string>
+    <string name="localmix_review_detached_hint">Te pliki nigdy nie są używane dla tych utworów. Przywróć, aby dopasowanie znów było możliwe.</string>
+    <string name="localmix_review_restore">Przywróć</string>
+    <string name="localmix_review_no_radio">Brak linków radia. Powstają przy starcie radia z lokalnego utworu.</string>
+    <string name="localmix_review_radio_hint">Nagranie YouTube Music, od którego startuje radio każdego lokalnego pliku. Usuń link, aby wybrać ponownie.</string>
+    <string name="localmix_review_radio_none">Wybrano: żadne ze znalezionych nagrań</string>
+    <string name="localmix_review_radio_manual">Wybrane przez Ciebie</string>
+    <string name="localmix_review_radio_auto">Dopasowane automatycznie</string>
+    <string name="localmix_review_remove">Usuń</string>
+    <string name="localmix_review_remove_confirm">Usuń na pewno</string>
+    <string name="localmix_doubt_soft_version">inna edycja (remaster lub radio edit)</string>
+    <string name="localmix_doubt_duration">długość różni się o ponad 2 s</string>
+    <string name="localmix_doubt_title">tytuł zapisany nieco inaczej</string>
+    <string name="localmix_doubt_artists">inni wykonawcy gościnni</string>
+</resources>

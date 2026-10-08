@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Not translated on purpose: the fork must never show up as "BitChord" next to the original app. -->
+    <string name="localmix_app_name" translatable="false">LocalMix</string>
+</resources>

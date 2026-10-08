@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="localmix_home_my_playlists">My playlists</string>
+    <string name="localmix_home_section_recents">Recently played</string>
+    <string name="localmix_home_section_youtube">YouTube Music</string>
+    <string name="localmix_home_layout_title">Home screen</string>
+    <string name="localmix_home_layout_subtitle">Choose which sections are shown and in what order</string>
+    <string name="localmix_home_layout_description">Tap a layout to switch between carousel and grid.</string>
+    <string name="localmix_home_move_up">Move up</string>
+    <string name="localmix_home_move_down">Move down</string>
+    <string name="localmix_home_layout_done">Done</string>
+    <string name="localmix_home_layout_reset">Reset</string>
+    <string name="localmix_home_section_local_recent">Recently played on this device</string>
+    <string name="localmix_home_section_local_most_played">Most played on this device</string>
+    <string name="localmix_home_section_local_added">Recently added files</string>
+    <string name="localmix_home_section_local_artists">Your artists</string>
+    <string name="localmix_home_local_artist_subtitle">On this device</string>
+    <string name="localmix_home_local_empty">Nothing here yet</string>
+    <string name="localmix_home_style_carousel">Carousel</string>
+    <string name="localmix_home_style_grid">Grid</string>
+    <string name="localmix_home_favorite_playlists">Favourite playlists</string>
+    <string name="localmix_favorite_add">Add to favourite playlists</string>
+    <string name="localmix_favorite_remove">Remove from favourite playlists</string>
+    <string name="localmix_favorite_pick">Choose playlists (%1$d)</string>
+    <string name="localmix_favorite_pick_title">Favourite playlists</string>
+    <string name="localmix_favorite_pick_empty">Import a playlist from Library first.</string>
+</resources>

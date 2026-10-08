@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="localmix_prefer_local_files">Use local files instead of streaming</string>
+    <string name="localmix_prefer_local_files_subtitle">Play matching files from your library, including offline</string>
+    <string name="localmix_on_device">On this device</string>
+    <string name="localmix_detach_file">Detach file</string>
+    <string name="localmix_detached">File detached. This song will stream from now on.</string>
+    <string name="localmix_review_title">Review local matches</string>
+    <string name="localmix_review_subtitle">Manage matched files and radio links</string>
+    <string name="localmix_review_close">Close</string>
+    <string name="localmix_review_tab_tracks">Songs (%1$d)</string>
+    <string name="localmix_review_tab_detached">Detached (%1$d)</string>
+    <string name="localmix_review_tab_radio">Radio (%1$d)</string>
+    <string name="localmix_review_no_matches">No local matches yet. Browse songs to find matches.</string>
+    <string name="localmix_review_uncertain_count">%1$d uncertain, shown first. Confirm the right ones and detach the wrong ones.</string>
+    <string name="localmix_review_all_certain">Detach a file if it plays the wrong recording.</string>
+    <string name="localmix_review_uncertain">Uncertain</string>
+    <string name="localmix_review_confirmed">Confirmed</string>
+    <string name="localmix_review_not_checked">Open this song to check its match</string>
+    <string name="localmix_review_confirm">Confirm</string>
+    <string name="localmix_review_no_detached">No detached files.</string>
+    <string name="localmix_review_detached_hint">Restore a file to allow its match again.</string>
+    <string name="localmix_review_restore">Restore</string>
+    <string name="localmix_review_no_radio">Start radio from a local song to save a link.</string>
+    <string name="localmix_review_radio_hint">Remove a link to choose a different recording next time.</string>
+    <string name="localmix_review_radio_none">No matching recording</string>
+    <string name="localmix_review_radio_manual">Chosen by you</string>
+    <string name="localmix_review_radio_auto">Matched automatically</string>
+    <string name="localmix_review_remove">Remove</string>
+    <string name="localmix_review_remove_confirm">Remove link</string>
+    <string name="localmix_doubt_soft_version">other edition (remaster or radio edit)</string>
+    <string name="localmix_doubt_duration">length differs by over 2 s</string>
+    <string name="localmix_doubt_title">title written slightly differently</string>
+    <string name="localmix_doubt_artists">other credited artists differ</string>
+</resources>

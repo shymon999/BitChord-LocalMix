@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="localmix_import_title">Import M3U playlists</string>
+    <string name="localmix_import_description">Choose .m3u or .m3u8 files, or a folder. Missing tracks stay in the playlist.</string>
+    <string name="localmix_import_files">Choose playlist files</string>
+    <string name="localmix_import_folder">Choose playlist folder</string>
+    <string name="localmix_importing">Importing…</string>
+    <string name="localmix_cancel">Cancel</string>
+    <string name="localmix_import_failed">Not imported: %1$s</string>
+    <string name="localmix_missing_file">File not found</string>
+    <string name="localmix_playlist_not_found">This playlist is no longer in the app</string>
+    <string name="localmix_no_available_tracks">None of this playlist\'s files were found on this device</string>
+    <string name="localmix_reimport">Reimport playlist</string>
+    <string name="localmix_delete">Remove from app</string>
+    <string name="localmix_deleted">Playlist removed</string>
+    <string name="localmix_playlist_summary">%1$d of %2$d tracks available</string>
+    <string name="localmix_reimport_failed">Could not read the playlist file again: %1$s</string>
+    <plurals name="localmix_missing_count">
+        <item quantity="one">%1$d missing</item>
+        <item quantity="other">%1$d missing</item>
+    </plurals>
+    <plurals name="localmix_imported_playlists">
+        <item quantity="one">Imported %1$d playlist (%2$d tracks)</item>
+        <item quantity="other">Imported %1$d playlists (%2$d tracks)</item>
+    </plurals>
+</resources>

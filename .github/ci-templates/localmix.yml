@@ -1,0 +1,62 @@
+name: LocalMix Android
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: localmix-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  android:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+      - uses: android-actions/setup-android@v3
+      - name: Install Android SDK
+        run: sdkmanager "platforms;android-36" "platforms;android-37.0" "build-tools;37.0.0" "cmake;3.22.1" "ndk;27.0.12077973"
+      - uses: gradle/actions/setup-gradle@v4
+      - run: chmod +x gradlew
+      - name: LocalMix domain tests
+        run: ./gradlew -PlocalmixCompileSdk=android-37.0 :localmix:test
+      - name: Android regression tests
+        run: >-
+          ./gradlew -PlocalmixCompileSdk=android-37.0 :app:testLocalmixDebugUnitTest
+          --tests 'com.music.bitchord.localmix.*'
+          --tests 'com.music.bitchord.OfflineArtistSongsTest'
+          --tests 'com.music.bitchord.BrowseTypeTest'
+          --tests 'com.music.bitchord.QueueBuilderTest'
+          --tests 'com.music.bitchord.HanVariantsTest'
+          --tests 'com.music.bitchord.playback.BlendHeadroomTest'
+          --tests 'com.music.bitchord.playback.LoudnessWarmupTest'
+          --tests 'com.music.bitchord.playback.LoudnessProcessorTest'
+          --tests 'com.music.bitchord.data.settings.SongTransitionsTest'
+          --tests 'com.music.bitchord.ArtistCreditsTest'
+          --tests 'com.music.bitchord.ArtistNameMatchTest'
+          --tests 'com.music.bitchord.LocaleStringsTest'
+          --tests 'com.music.bitchord.LocalizationTest'
+      - name: Build optimized preview APK
+        run: ./gradlew -PlocalmixCompileSdk=android-37.0 :app:assembleLocalmixBenchmark
+      - name: Upload preview APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: localmix-preview
+          path: app/build/outputs/apk/localmix/benchmark/*.apk
+      - name: Upload test reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: localmix-test-reports
+          path: |
+            localmix/build/reports/tests/
+            app/build/reports/tests/

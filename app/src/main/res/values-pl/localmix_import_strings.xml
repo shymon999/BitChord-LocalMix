@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="localmix_import_title">Importuj playlisty M3U</string>
+    <string name="localmix_import_description">Wybierz pliki playlist albo folder, aby zaimportować wszystkie playlisty z niego. Utwory są dopasowywane do muzyki na tym urządzeniu; te, których nie znaleziono, zostają na liście jako niedostępne.</string>
+    <string name="localmix_import_files">Wybierz pliki playlist</string>
+    <string name="localmix_import_folder">Wybierz folder z playlistami</string>
+    <string name="localmix_importing">Importowanie…</string>
+    <string name="localmix_cancel">Anuluj</string>
+    <string name="localmix_import_failed">Nie zaimportowano: %1$s</string>
+    <string name="localmix_missing_file">Nie znaleziono pliku</string>
+    <string name="localmix_playlist_not_found">Tej playlisty nie ma już w aplikacji</string>
+    <string name="localmix_no_available_tracks">Nie znaleziono na tym urządzeniu żadnego pliku z tej playlisty</string>
+    <string name="localmix_reimport">Importuj ponownie z pliku</string>
+    <string name="localmix_delete">Usuń z aplikacji</string>
+    <string name="localmix_deleted">Usunięto playlistę. Plik i muzyka pozostały nietknięte.</string>
+    <string name="localmix_playlist_summary">Dostępne utwory: %1$d z %2$d</string>
+    <string name="localmix_reimport_failed">Nie udało się ponownie odczytać pliku playlisty: %1$s</string>
+    <plurals name="localmix_missing_count">
+        <item quantity="one">%1$d brakujący</item>
+        <item quantity="few">%1$d brakujące</item>
+        <item quantity="many">%1$d brakujących</item>
+        <item quantity="other">%1$d brakujących</item>
+    </plurals>
+    <plurals name="localmix_imported_playlists">
+        <item quantity="one">Zaimportowano %1$d playlistę (%2$d utworów)</item>
+        <item quantity="few">Zaimportowano %1$d playlisty (%2$d utworów)</item>
+        <item quantity="many">Zaimportowano %1$d playlist (%2$d utworów)</item>
+        <item quantity="other">Zaimportowano %1$d playlisty (%2$d utworów)</item>
+    </plurals>
+</resources>
